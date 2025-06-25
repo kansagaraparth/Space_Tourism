@@ -20,7 +20,7 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain_google_genai import ChatGoogleGenerativeAI
 import os
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBXe6-zagB7mf7z6VJVBgiUh-HQ7ftfngI"
+os.environ["GOOGLE_API_KEY"] = "Your_Key"
 
 loader = TextLoader("space_tourism_future.txt")
 documents = loader.load()
